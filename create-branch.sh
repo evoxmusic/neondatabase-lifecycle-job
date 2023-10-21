@@ -74,7 +74,15 @@ echo '{
     "sensitive": false,
     "value": "'$username'"
   },
+    "QUARKUS_DATASOURCE_USERNAME": {
+    "sensitive": false,
+    "value": "'$username'"
+  },
     "POSTGRES_PASSWORD": {
+    "sensitive": true,
+    "value": "'$password'"
+  },
+    "QUARKUS_DATASOURCE_PASSWORD": {
     "sensitive": true,
     "value": "'$password'"
   }
